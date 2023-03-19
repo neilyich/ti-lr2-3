@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41110903-c8d7-4474-bb9a-63c19c15484d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lr2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lr3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/BrownRobinsonMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/BrownRobinsonMethodPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/FormattedPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/FormattingConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/SimpleBrownRobinsonMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr2/IntBrownRobinsonMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr2/Lr2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr2/Lr2Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/DoubleBrownRobinsonMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/H.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/Lr3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/Lr3Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/SaddlePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/SaddlePointFinder.java" afterDir="false" />
+    <list default="true" id="41110903-c8d7-4474-bb9a-63c19c15484d" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lr3.json" beforeDir="false" afterPath="$PROJECT_DIR$/lr3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neilyich/lr3/Lr3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/Lr3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "com.google.cloudcode.ide_session_index": "20230319_0003",
+    "com.google.cloudcode.ide_session_index": "20230319_0004",
     "last.edited.regexp": ""
   }
 }]]></component>
@@ -72,7 +53,7 @@
       <recent name="neilyich" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.neilyich.lr2.Lr2">
+  <component name="RunManager" selected="Application.Lr3">
     <configuration name="Lr3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="neilyich.lr3.Lr3" />
       <module name="ti-lr2-3" />
@@ -101,8 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.neilyich.lr2.Lr2" />
         <item itemvalue="Application.Lr3" />
+        <item itemvalue="Application.neilyich.lr2.Lr2" />
       </list>
     </recent_temporary>
   </component>
@@ -114,8 +95,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679149060728</updated>
-      <workItem from="1679149062062" duration="25129000" />
+      <workItem from="1679149062062" duration="25813000" />
+      <workItem from="1679238583973" duration="1411000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1679187303523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679187303523</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,5 +121,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

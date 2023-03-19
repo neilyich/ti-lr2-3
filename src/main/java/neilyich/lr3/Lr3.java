@@ -26,9 +26,7 @@ public class Lr3 {
     }
 
     private static void solveUsingAnalyticSolution(H h, Lr3Configuration.AnalyticSolutionConfiguration config) {
-        System.out.println("-".repeat(30));
-        System.out.println("Analytic solution");
-        System.out.println("-".repeat(30));
+        System.out.println("Аналитический метод:");
 
 
         PRINT_WIDTH = config.formatting().width();
@@ -53,16 +51,15 @@ public class Lr3 {
             y = 0;
             x = -(c*y + d) / (2*a);
         }
-        println(" X=", x);
-        println(" Y=", y);
-        println(" H=", h.at(x, y));
-        println("Hx=", h.xAt(x, y));
-        println("Hy=", h.yAt(x, y));
+        println("     x=", x);
+        println("     y=", y);
+        println("H(x,y)=", h.at(x, y));
+//        println("Hx=", h.xAt(x, y));
+//        println("Hy=", h.yAt(x, y));
     }
 
     private static void solveUsingNumericSolution(H h, Lr3Configuration.NumericSolutionConfiguration config) {
-        System.out.println("-".repeat(30));
-        System.out.println("Numeric solution");
+        System.out.println("Численный способ:");
         PRINT_WIDTH = config.formatting().width();
         PRINT_SCALE = config.formatting().scale();
         int maxN = config.maxN();
@@ -71,23 +68,23 @@ public class Lr3 {
         int stepsLimit = config.stepsLimit();
         for (int n = 2; n <= maxN; n++) {
             System.out.println("-".repeat(30));
-            println("N=", n);
+            System.out.println("N = " + n + ":");
             var c = buildMatrix(h, n);
             var saddlePoint = findSaddlePoint(c);
             if (saddlePoint.isPresent()) {
-                System.out.println("Found saddle point:");
+                System.out.println("Найдена седловая точка:");
                 var x = (double) saddlePoint.get().row() / n;
                 var y = (double) saddlePoint.get().col() / n;
-                println("X=", x);
-                println("Y=", y);
-                println("H=", h.at(x, y));
+                println("     x=", x);
+                println("     y=", y);
+                println("H(x,y)=", h.at(x, y));
             } else {
                 var method = new DoubleBrownRobinsonMethod(h, c, lastResultsCount, maxE);
                 method.solve(stepsLimit);
-                System.out.println("No saddle point, solved using Brown-Robinson method:");
-                println("X=", method.dominantXStrategy());
-                println("Y=", method.dominantYStrategy());
-                println("H=", h.at(method.dominantXStrategy(), method.dominantYStrategy()));
+                System.out.println("Седловая точка не найдена, решение методом Брауна-Робинсон:");
+                println("     x=", method.dominantXStrategy());
+                println("     y=", method.dominantYStrategy());
+                println("H(x,y)=", h.at(method.dominantXStrategy(), method.dominantYStrategy()));
             }
         }
     }
@@ -99,7 +96,6 @@ public class Lr3 {
                 c.set(i, j, h.at((double) i / n, (double) j / n));
             }
         }
-        printMatrix(c);
         return c;
     }
 
