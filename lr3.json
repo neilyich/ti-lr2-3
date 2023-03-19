@@ -1,0 +1,25 @@
+{
+  "h": {
+    "a": "-4",
+    "b": "10.0/3.0",
+    "c": "16.0/3.0",
+    "d": "-16.0/30.0",
+    "e": "-112.0/30.0"
+  },
+  "analyticSolutionConfig": {
+    "formatting": {
+      "width": 6,
+      "scale": 3
+    }
+  },
+  "numericSolutionConfig": {
+    "formatting": {
+      "width": 7,
+      "scale": 3
+    },
+    "maxN": 10,
+    "maxE": 0.001,
+    "stepsLimit": 1000,
+    "lastResultsCount": 20
+  }
+}

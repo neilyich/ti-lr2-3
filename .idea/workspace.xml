@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="41110903-c8d7-4474-bb9a-63c19c15484d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lr2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lr3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/BrownRobinsonMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/BrownRobinsonMethodPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/FormattedPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/FormattingConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/SimpleBrownRobinsonMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr2/IntBrownRobinsonMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr2/Lr2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr2/Lr2Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/DoubleBrownRobinsonMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/H.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/Lr3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/Lr3Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/SaddlePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/SaddlePointFinder.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Record" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NBsxrcLPZAgmqcnIH6lrDj4RVD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.google.cloudcode.ide_session_index": "20230319_0003",
+    "last.edited.regexp": ""
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="neilyich" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="neilyich" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.neilyich.lr2.Lr2">
+    <configuration name="Lr3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="neilyich.lr3.Lr3" />
+      <module name="ti-lr2-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="neilyich.lr3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="neilyich.lr2.Lr2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="neilyich.lr2.Lr2" />
+      <module name="ti-lr2-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="neilyich.lr2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.neilyich.lr2.Lr2" />
+        <item itemvalue="Application.Lr3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41110903-c8d7-4474-bb9a-63c19c15484d" name="Changes" comment="" />
+      <created>1679149060728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679149060728</updated>
+      <workItem from="1679149062062" duration="25129000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
