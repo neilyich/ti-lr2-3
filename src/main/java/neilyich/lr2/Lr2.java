@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
 import com.fasterxml.jackson.databind.module.SimpleModule;
+import neilyich.BrownRobinsonConfiguration;
 import neilyich.BrownRobinsonMethodPrinter;
 import org.ejml.equation.Equation;
 import org.ejml.simple.SimpleMatrix;
@@ -36,7 +37,7 @@ public class Lr2 {
         solveUsingInverseMatrix(config.c(), config.inverseMatrix());
     }
 
-    private static void solveUsingBrownRobinsonMethod(SimpleMatrix c, Lr2Configuration.BrownRobinsonConfiguration config) {
+    private static void solveUsingBrownRobinsonMethod(SimpleMatrix c, BrownRobinsonConfiguration config) {
         System.out.println("Метод Брауна-Робинсон:");
         PRINT_SCALE = config.formatting().scale();
         PRINT_WIDTH = config.formatting().width();
@@ -100,6 +101,7 @@ public class Lr2 {
             }
         });
         objectMapper.registerModule(module);
+        objectMapper.enable(JsonParser.Feature.ALLOW_COMMENTS);
         return objectMapper;
     }
 }

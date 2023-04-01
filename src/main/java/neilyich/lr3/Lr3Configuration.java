@@ -1,6 +1,7 @@
 package neilyich.lr3;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import neilyich.BrownRobinsonConfiguration;
 import neilyich.FormattingConfiguration;
 
 public record Lr3Configuration(
@@ -15,6 +16,8 @@ public record Lr3Configuration(
     ) {}
 
     public record NumericSolutionConfiguration(
+            @JsonProperty("brownRobinsonConfig")
+            BrownRobinsonConfiguration brownRobinson,
             FormattingConfiguration formatting,
             int  maxN,
             double maxE,

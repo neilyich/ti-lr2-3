@@ -1,6 +1,7 @@
 package neilyich.lr2;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import neilyich.BrownRobinsonConfiguration;
 import neilyich.FormattingConfiguration;
 import org.ejml.simple.SimpleMatrix;
 
@@ -13,11 +14,5 @@ public record Lr2Configuration(
 ) {
     public record InverseMatrixConfiguration(
             FormattingConfiguration formatting
-    ) {}
-
-    public record BrownRobinsonConfiguration(
-            FormattingConfiguration formatting,
-            double maxE,
-            int stepsLimit
     ) {}
 }

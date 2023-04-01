@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41110903-c8d7-4474-bb9a-63c19c15484d" name="Changes" comment="first commit">
+    <list default="true" id="41110903-c8d7-4474-bb9a-63c19c15484d" name="Changes" comment="update files for lr3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/BrownRobinsonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/NumericSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lr3.json" beforeDir="false" afterPath="$PROJECT_DIR$/lr3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neilyich/lr2/Lr2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr2/Lr2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neilyich/lr2/Lr2Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr2/Lr2Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neilyich/lr3/DoubleBrownRobinsonMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/DoubleBrownRobinsonMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/neilyich/lr3/Lr3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/Lr3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neilyich/lr3/Lr3Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neilyich/lr3/Lr3Configuration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "com.google.cloudcode.ide_session_index": "20230319_0004",
+    "com.google.cloudcode.ide_session_index": "20230401_0001",
     "last.edited.regexp": ""
   }
 }]]></component>
@@ -96,7 +102,11 @@
       <option name="presentableId" value="Default" />
       <updated>1679149060728</updated>
       <workItem from="1679149062062" duration="25813000" />
-      <workItem from="1679238583973" duration="1411000" />
+      <workItem from="1679238583973" duration="2301000" />
+      <workItem from="1679260772026" duration="16000" />
+      <workItem from="1679268625703" duration="556000" />
+      <workItem from="1679870321962" duration="118000" />
+      <workItem from="1680354415071" duration="3544000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1679187303523</created>
@@ -105,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679187303523</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update files for lr3">
+      <created>1679242194778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679242194778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="update files for lr3" />
+    <option name="LAST_COMMIT_MESSAGE" value="update files for lr3" />
   </component>
 </project>
